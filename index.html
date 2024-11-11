@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food ordering App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Food Ordering App</h1>
+    <form id="orderform">
+    <div>
+     <label for="Food">choose a food</label>
+     <select id="Food">
+        <option value="0">-- select a food</option>
+        <option value="40">-- Burger - $40</option>
+        <option value="80">-- pizza - $80</option>
+        <option value="30">-- sandwich - $30</option>
+        <option value="10">-- Nasi Kuning - $10</option>
+        <option value="5">-- Bubur Kacang Ijo - $5</option>
+     </select>
+    </div>
+    <div>
+        <label for="drink">choose a drink</label>
+        <select id="drink">
+           <option value="0">-- select a drink</option>
+           <option value="20">-- Matcha Latte - $20</option>
+           <option value="20">-- Ice Tea - $20</option>
+           <option value="40">-- Juice - $40</option>
+        </select>
+       </div>
+
+<button id="OrderButton">Order Now!!!!!!!</button>  
+ 
+</form>
+<div id="result"></div>
+<script src="script.js"></script>   
+</body>
+</html>
